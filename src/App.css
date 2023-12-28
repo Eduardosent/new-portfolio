@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap');
+body{
+  margin: 0;
+  font-family: Roboto;
+  scroll-behavior: smooth;
+  background: rgb(64,4,193);
+  animation-duration: 6s;
+  animation-name: child;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes child{
+  0%{ background: rgb(64,4,193);}
+  50%{background:rgb(117, 4, 193);}
+  100%{background:rgb(73, 7, 218);}
+}
+h1{
+  margin: 0;
+  position: absolute;
+  color: white;
+}
+#proyectos h2{
+  text-align: center;
+  color: white;
+}

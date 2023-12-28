@@ -1,0 +1,149 @@
+.proyects{
+    display: grid;
+    justify-items: center;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1.5rem .5rem 5rem .5rem;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.type{
+    text-align: end;
+    position: absolute;
+    top:  0;
+    right: 5px;
+}
+.title{
+    text-align: center;
+}
+.project p{
+    width: 130px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.imgmain{
+    width: 130px;
+    height: 105px;
+}
+.madewithimages{
+    display: flex;
+    flex-direction: column;
+}
+.madewithimages p{
+    text-align: start;
+    margin:  0;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+}
+.images img{
+    width: 27px;
+    height: 27px;
+}
+.created{
+    text-align: end;
+}
+.download{
+    font-size: .8rem;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.download img{
+    width: 25px;
+}
+.links{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 130px;
+}
+.links a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.github{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+.github img{
+    border-radius: 100%;
+    background-color: white;
+    width: 25px;
+}
+.view{
+    background-color: green;
+}
+@media (min-width:330px){
+    .proyects{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:400px){
+    .imgmain{
+        width: 160px;
+        height: 140px;
+    }
+    .project p{
+        width: 160px;
+    }
+    .links{
+        width: 160px;
+    }
+}
+@media (min-width:480px){
+    .imgmain{
+        width: 200px;
+        height: 140px;
+    }
+    .project p{
+        width: 200px;
+    }
+    .links{
+        width: 200px;
+    }
+}
+@media (min-width:700px){
+    .proyects{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width:800px){
+    .imgmain{
+        width: 230px;
+        height: 180px;
+    }
+    .project p{
+        width: 230px;
+    }
+    .links{
+        width: 230px;
+    }
+}
+@media (min-width:1050px){
+    .proyects{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

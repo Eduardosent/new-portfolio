@@ -1,0 +1,124 @@
+#lenguajes-frameworks {
+    padding: 1rem 0 1rem 0;
+}
+#lenguajes-frameworks h2,
+h3{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.3em;
+}
+.skills {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    padding: 1rem 0 1rem 0;
+}
+.skill {
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.skill-main img{
+    width: 50px;
+    height: 50px;
+}
+.skill-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: .3rem;
+}
+
+.nombre-skill {
+    font-weight: 700;
+}
+.barra {
+    border-radius: .5rem;
+    position: relative;
+    width: 120px;
+    height: 15px;
+}
+.barra::after{
+    content: "improving";
+    color: white;
+    position: absolute;
+    bottom: -1.2rem;
+    left: 1rem;
+}
+.progreso {
+    border-radius: .5rem;
+    left: 5px;
+    top: 5px;
+    position: absolute;
+    height: 5px;
+    animation-name: increment;
+    animation-delay: 3.5s;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+}
+@media (min-width:365px) {
+    .skills {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 520px) {
+    .skills{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 750px) {
+    .skills{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .skill-main img{
+        width: 75px;
+        height: 75px;
+    }
+}
+@media (min-width: 1200px) {
+    .skills{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@keyframes increment{
+    0%{width:0%;}
+    100%{width:100%;}
+  }
+/*Proximos*/
+#lenguajes-frameworks h3{
+    margin-bottom: 1rem;
+}
+.proximos {
+    gap: 1.5rem;
+    display: grid;
+}
+.proximo {
+    display: grid;
+    justify-items: center;
+    gap: .5rem;
+}
+.proximo p{
+    font-size: .8rem;
+    color: white;
+}
+.proximo img{
+    border-radius: 1.75rem;
+    background-color: white;
+    width: 90px;
+    height: 70px;
+}
+@media (min-width:300px) {
+    .proximos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:600px) {
+    .proximo img {
+        width: 120px;
+        height: 100px;
+    }
+}
