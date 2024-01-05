@@ -14,8 +14,11 @@ export const skills = [
     {name:"R",image:"r-lang.svg",baseColor:"#ECF0F1",progressColor:"#839192",progressWidth:"34px"},
     {name:"Firebase",image:"firebase-icon.svg",baseColor:"#F7DC6F",progressColor:"#F1C40F",progressWidth:"22px"},
     {name:"Angular",image:"angular-icon-1.svg",baseColor:"#f55751",progressColor:"#dd1b16",progressWidth:"35px"},
+    {name:"Node",image:"nodejs.svg",baseColor:"#A3F9C7",progressColor:"#25C469",progressWidth:"35px"},
+    {name:"Express",image:"express.svg",baseColor:"#AEB6B1",progressColor:"#3D403E",progressWidth:"35px"},
+    {name:"AWS",image:"aws.svg",baseColor:"#FADC96",progressColor:"#FB990C",progressWidth:"35px"},
+    {name:"Solidity",image:"solidity.svg",baseColor:"#C0C5C2 ",progressColor:"#060A08",progressWidth:"35px"},
 ];
 export const coming = [
-    {name:"Node",image:"node_icon_196185.svg"},
-    {name:"Blockchain",image:"blockchain.svg"},
+    {name:"Docker",image:"docker.svg"},
 ];

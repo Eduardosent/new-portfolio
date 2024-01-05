@@ -49,5 +49,9 @@ export const projects = [
     descripton:"this website tell you how long time left for new year, and do a surprise on Jan 1",
     madeWith:['icons8-reaccionar-nativo.svg'],
     download:false,github:'https://github.com/Eduardosent/time-to-new-year',link:'https://time-for-new-year.netlify.app/',typedownload:false},
+    {title:"API REST fake users",image:"fakeusers.png",video:false,type:'API',created:'Jan/2024',
+    descripton:"API REST made with Node.js, Express, using MongoDB Atlas, and deployed with AWS, soon a page with the endpoints, ",
+    madeWith:['mongodb-icon-1.svg','nodejs.svg','express.svg','aws.svg'],
+    download:false,github:'https://github.com/Eduardosent/api',link:'http://ec2-18-222-121-21.us-east-2.compute.amazonaws.com/user',typedownload:false},
 ];
 //multi platform
