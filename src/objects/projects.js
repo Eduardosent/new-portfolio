@@ -53,5 +53,9 @@ export const projects = [
     descripton:"API REST made with Node.js, Express, using MongoDB Atlas, and deployed with AWS, soon a page with the endpoints, ",
     madeWith:['mongodb-icon-1.svg','nodejs.svg','express.svg','aws.svg'],
     download:false,github:'https://github.com/Eduardosent/api',link:'http://ec2-18-222-121-21.us-east-2.compute.amazonaws.com/user',typedownload:false},
+    {title:"Ethereum wallet Dapp",image:"dapp.png",video:false,type:'Web3',created:'Jan/2024',
+    descripton:"Create your ETH wallet here",
+    madeWith:['icons8-reaccionar-nativo.svg','solidity.svg','web3js.svg'],
+    download:false,github:'https://github.com/Eduardosent/dapp',link:'https://createwalletdapp.netlify.app/',typedownload:false},
 ];
 //multi platform
