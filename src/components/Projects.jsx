@@ -14,6 +14,7 @@ export const Projects = () => {
             ))
         }
     </div>
+    <p style={{backgroundColor:'red',fontWeight:'700',color:'white',textAlign:'center',padding:5}}>Creating a project Social Media, soon</p>
     </section>
   )
 }

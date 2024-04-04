@@ -5,6 +5,7 @@ export const PersonalData = () => {
 
   return (
     <main id="datos-personales">
+        <p style={{color:'white',backgroundColor:'orange',textAlign:'center',padding:10}}>Preparing Update with a new and better Portfolio</p>
     <div className="datos-p container"> 
         <h1>Personal Information</h1>
         <img src={"/img/perfil.png"}></img>

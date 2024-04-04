@@ -57,5 +57,13 @@ export const projects = [
     descripton:"Create your ETH wallet here",
     madeWith:['icons8-reaccionar-nativo.svg','solidity.svg','web3js.svg'],
     download:false,github:'https://github.com/Eduardosent/dapp',link:'https://createwalletdapp.netlify.app/',typedownload:false},
+    {title:"Fundater adminitration",image:"fundater.png",video:false,type:'web',created:'Feb/2024',
+    descripton:"Crud administration for fundater with Log in, user:correo@prueba.com, password:Prueba12",
+    madeWith:['preact.svg','tailwind.svg'],
+    download:false,github:'https://github.com/Eduardosent/dapp',link:'https://fundater-landing.vercel.app/admin/login',typedownload:false},
+    {title:"LearnEdu React",image:"LearnEduReact.png",video:false,type:'web',created:'Feb/2024',
+    descripton:"Aprende React en esta página con nuevas clases pronto",
+    madeWith:['icons8-reaccionar-nativo.svg','tailwind.svg'],
+    download:false,github:'https://github.com/Eduardosent/dapp',link:'https://learnedu-react.vercel.app/',typedownload:false},
 ];
 //multi platform
