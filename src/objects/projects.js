@@ -62,8 +62,12 @@ export const projects = [
     madeWith:['preact.svg','tailwind.svg'],
     download:false,github:'https://github.com/Eduardosent/dapp',link:'https://fundater-landing.vercel.app/admin/login',typedownload:false},
     {title:"LearnEdu React",image:"LearnEduReact.png",video:false,type:'web',created:'Feb/2024',
-    descripton:"Aprende React en esta página con nuevas clases pronto",
+    descripton:"Learn React on this page with new classes coming soon",
     madeWith:['icons8-reaccionar-nativo.svg','tailwind.svg'],
     download:false,github:'https://github.com/Eduardosent/dapp',link:'https://learnedu-react.vercel.app/',typedownload:false},
+    {title:"Red (demo)",image:"red.png",video:false,type:'web',created:'Apr/2024',
+    descripton:"Social Network with most of the functions that a social network has (in development)",
+    madeWith:['preact.svg','tailwind.svg'],
+    download:false,github:'https://github.com/Eduardosent/dapp',link:'https://red-inky.vercel.app/',typedownload:false},
 ];
 //multi platform
